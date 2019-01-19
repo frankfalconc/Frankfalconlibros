@@ -1,0 +1,14 @@
+1. Tener los archivos .ipynb en la carpeta 'Jupyter Notebook'
+
+2. En la dirección 'D:\Frankfalconlibros' click derecho
+   y seleccionar 'Git Bash Here'
+
+3. Dentro de la consola se escribió las siguientes sentencias git:
+   git init
+   git config --global user.email "ffalcon.c@gmail.com"
+   git config --global user.name "frankfalconc"
+   git add .
+   git commit -m "Jupyter Notebook"
+   git remote add origin https://github.com/frankfalconc/Frankfalconlibros.git
+   git push -u origin master
+
